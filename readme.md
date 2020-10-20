@@ -6,3 +6,6 @@ An easy way to display the two most popular social media share buttons via a sho
 
 `[w357_social_share_buttons]`
 
+## SCREENSHOT
+
+![Screenshot](https://i.imgur.com/XHPePJG.png)
