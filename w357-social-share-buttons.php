@@ -31,7 +31,7 @@ function w357_social_share_buttons_func( $atts ){
 
     global $wp;
 
-    $tweet_btn_html = '<div style="display:inline-block;overflow:hidden;margin-right:15px;"><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><a alt="Tweet" target="_blank" href="https://twitter.com/intent/tweet?via=web357&url='.urlencode(get_permalink($post->ID)).'&text='.urlencode(get_the_title()).'&hashtags=joomla,wordpress,web357" class="twitter-share-button">Tweet</a></div>';
+    $tweet_btn_html = '<div style="display:inline-block;overflow:hidden;margin-right:15px;"><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><a alt="Tweet" target="_blank" href="https://twitter.com/intent/tweet?via=web357&url='.urlencode(get_permalink($post->ID)).'&text='.(get_the_title()).'&hashtags=joomla,wordpress,web357" class="twitter-share-button">Tweet</a></div>';
 
     $facebook_btn_html = '<div style="display:inline-block;">
     <!-- Load Facebook SDK for JavaScript -->
